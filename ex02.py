@@ -1,9 +1,12 @@
-n1 = int(input("Digite um número inteiro de três algarismos: "))
+num = input("Digite um número: ")
 
-inversa = 0
+invSTR = num[::-1]
 
+inv = int(invSTR)
+num2 = int(num)
 
-for x in string: # x equivale ao indice da string
-    inversa =  x + inversa
+soma = inv + num2
 
-print(inversa)
+print(f"O inverso de {num} é {invSTR}") 
+
+print(f"A soma é {soma}")
